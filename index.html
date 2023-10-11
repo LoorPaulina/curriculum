@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" >
     <meta name="desarrollo" content="index" description="Curriculum vitae programador" keyword="Curriculum">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Currículum Vitae</title>
 </head>
 <body>
@@ -19,8 +20,9 @@
 <li><a href="#contacto">Contacto</a></li>
 </ul>
 </nav>
-<section id="informacion-personal">
-<h2>Información personal</h2>
+<section id="informacion-personal">	
+<span class="highlight">Información personal</span>
+<img src="https://placehold.co/600x400">
 <p>
 Nombre: <span>Paulina Loor</span>
 </p>
@@ -36,6 +38,7 @@ Correo electrónico: <span>juan.perez@example.com</span>
 <p>
 Perfil de linkedin: <span>juan.perez@example.com</span>
 </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31896.22253353739!2d-79.9637504!3d-2.1430271999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1697035591759!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 <section id="objetivo">
     <h2>Objetivo</h2>
@@ -54,7 +57,7 @@ Fechas: <span>2020 - 2023</span>
 </p>
 </section>
 <section id="experiencia">
-<h2>Experiencia</p>
+<h2>Experiencia</h2>
 <p>
 Cargo: <span>Desarrollador de software</span>
 </p>
@@ -64,14 +67,14 @@ Empresa: <span>Google</span>
 <p>
 Fechas: <span>2023 - Presente</span>
 </p>
-<p>
+<h2>
 Descripción:
+</h2>
 <ul>
 <li>Desarrollo de aplicaciones web</li>
 <li>Mantenimiento de sistemas</li>
 <li>Trabajo en equipo</li>
 </ul>
-</p>
 </section>
 <section id="habilidades">
 <h2>Habilidades</h2>
@@ -84,6 +87,20 @@ Descripción:
 </section>
 <footer>
 <p>Copyright © 2023 Juan Pérez</p>
+<h2>Información de contacto</h2>
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required />
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required />
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Subscribe!" />
+  </div>
+</form>
 </footer>
 </body>
 </html>
