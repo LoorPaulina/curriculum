@@ -1,13 +1,26 @@
+*{
+	font-family: 'Didact Gothic';
+}
+
+h1 {
+	font-family: 'PT Serif';
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Yrsa';
+	text-align: center;
+}
 header{
 	justify-content: space-around;
 	padding-right: 20%;
 	margin-left: 5%;
 	margin-right: 5%;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	width: 71%;
 	box-sizing: content-box;
 	height: 61%;
 }
+
 
 .fondo {
 	margin-top: 1%;
@@ -97,40 +110,15 @@ ul li a:hover::before{
 	background-color: #b06e4b;
 }
 
-
-
-#informacion-personal{
-	background-color: pink;
-}
-
 #educacion {
 	background-color: #b06e4b;
 }
-
-@media screen and (max-width: 600px) {
-    body {
-        width: 100%;
-    }
-}
-
 
 header img{
 	max-width: 200px;
 	max-height: 500px;
 	margin-left: 20%;
 	margin-right: 10%;
-}
-
-h1 {
-	text-align: center;
-}
-
-h2{
-	text-align: center;
-}
-
-#objetivo {
-	background-color: pink;
 }
 
 #contenedor-principal {
@@ -210,11 +198,21 @@ iframe{
 	height: 40px;
 	padding-top: 20px;
 }
-#informacion-personal {
-	background-color: var(--clr);
-}
 
-#objetivo {
+#titulo-proyectos{
+	padding-top: 20px;
+	margin-top: -20px;
+	background-color: #b06e4b;
+	position: absolute;
+	width: 250px;
+	text-align: center;
+	border-radius: 15px;
+	color: white;
+	margin-left: 150px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.seccion-cv {
 	background-color: var(--clr);
 }
 
@@ -229,11 +227,27 @@ iframe{
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+#experiencia section 
+{
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #f9cccf;
+	margin-top: 40px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 nav img{
 	width: 200px;
 	height: 400px;
 	object-fit: contain;
 	margin-left: 20%;
+}
+
+#proyectos{
+	border-radius: 25px;
+	background-color: #f9cccf;
+	margin-top: 40px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -257,7 +271,54 @@ input {
 	margin-left: 10px;
 }
 
-#certificaciones {
-	background-color: #f9cccf;
+.card{
+	position: relative;
+	max-width: 300px;
+	height: 200px;
+	background-color: white;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
 }
+
+.card .img0x {
+	position: relative;
+	width: 260px;
+	height: 260px;
+	left: 20px;
+	z-index: 1;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.container .card:hover {
+	height: 270px;
+}
+.container .card .content {
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: -20px;
+	transition-delay: 0.3s;
+}
+
 

@@ -2,8 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" >
-    <meta name="desarrollo" content="index" description="Curriculum vitae programador" keyword="Curriculum">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta name="desarrollo" content="index" description="Curriculum vitae programador" keyword="Curriculum", author="Paulina Loor">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/estilos.css">
     <title>Currículum Vitae</title>
 </head>
 <body>
@@ -26,11 +30,11 @@
       <li style="--clr:#fff"><a href="#experiencia" data-text="&nbsp;Experiencia">&nbsp;Experiencia</a></li>
       <li style="--clr:#fff"><a href="#habilidades" data-text="&nbsp;Habilidades">&nbsp;Habilidades</a></li>
       <li style="--clr:#fff"><a href="#contacto" data-text="&nbsp;Contacto">&nbsp;Contacto</a></li>
-      <li style="--clr:#fff"><a href="#certificaciones" data-text="&nbsp;Certificaciones">&nbsp;Certificaciones</a></li>
+      <li style="--clr:#fff"><a href="#proyectos" data-text="&nbsp;Proyectos">&nbsp;Proyectos</a></li>
     </ul>
-    <img src="/images/gato.png">
+    <img src="./images/gato.png">
   </nav>
-<section id="informacion-personal">	
+<section id="informacion-personal" class="seccion-cv">	
   <div id="titulo-info">INFORMACIÓN PERSONAL</div>
     <section>
       <div>
@@ -44,11 +48,11 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31896.22253353739!2d-79.9637504!3d-2.1430271999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1697035591759!5m2!1ses!2sec" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
   <div id="titulo-info2">HABIILIDADES</div>
-    <section id="habilidades">
+    <section id="habilidades" class="seccion-cv">
       <img src="/images/PIECHART.jpg" width="300px">
     </section>
     </section>
-    <section id="objetivo">
+    <section id="objetivo" class="seccion-cv">
     <div id="titulo-objetivo">OBJETIVO</div>
       <section>
         <p>Busco una posición desafiante como desarrollador de software donde pueda aplicar mis habilidades técnicas y experiencia para contribuir al desarrollo de soluciones innovadoras y de alta calidad</p>
@@ -67,7 +71,7 @@
     </p>
   </section>
 <section id="experiencia">
-  <h2>Experiencia</h2>
+  <section>
   <p>
   Cargo: <span>Desarrollador de software</span>
   </p>
@@ -78,10 +82,32 @@
   Fechas: <span>2023 - Presente</span>
   </p>
   </section>
-<section id="certificaciones"></section>
+  </section>
+<section id="proyectos" class="seccion-cv">
+  <div id="titulo-proyectos">PROYECTOS</div>
+  <div class="container">
+  <div class="card">
+    <img src="/images/proyecto1.jpg" width="290px" height="150px">
+    <div class="imgCard"></div>
+    <div class="content">
+      <h3>Gestor de inventario de pastelería</h3>
+      <p>Control de inventario de una pastelería utilizando SQL</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="imgCard">
+      <img src="/images/proyecto2.PNG" width="300px" height="150px">
+    </div>
+    <div class="content">
+      <h3>Página de tienda de videojuegos</h3>
+      <p>Tienda de videojuegos elaborado con Java</p>
+    </div>
+  </div>
+</div>
+</section>
 </section>
 <footer>
-<h2>Información de contacto</h2>
+<h2>Contáctame!</h2>
 <form action="" method="get" class="form-example">
   <div class="form-example">
     <label for="name">Ingresa tu nombre: </label>
@@ -95,7 +121,7 @@
     <input type="submit" value="Enviar" />
   </div>
 </form>
-<p>Copyright © 2023 Juan Pérez</p>
+<p>Copyright © 2023 Paulina Loor</p>
 </footer>
 </body>
 </html>
