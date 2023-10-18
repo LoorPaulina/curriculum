@@ -174,13 +174,13 @@ iframe{
 #educacion div {
 	background-color: #b06e4b;
 	position: absolute;
-	width: 250px;
+	width: 230px;
 	padding: 20px;
-	margin-top: -45px;
+	margin-top: -60px;
 	text-align: center;
 	border-radius: 15px;
 	color: white;
-	margin-left: 150px;
+	margin-left: 130px;
 	font-weight: bold;
 }
 
@@ -224,7 +224,7 @@ iframe{
 
 #titulo-proyectos{
 	padding-top: 20px;
-	margin-top: -20px;
+	margin-top: -40px;
 	background-color: #b06e4b;
 	position: absolute;
 	width: 250px;
@@ -351,6 +351,17 @@ input {
 	opacity: 1;
 	margin-top: -20px;
 	transition-delay: 0.3s;
+}
+
+#submit:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+footer h2{
+	color: black;
 }
 
 
