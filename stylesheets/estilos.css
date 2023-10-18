@@ -22,6 +22,7 @@ header{
 }
 
 
+
 .fondo {
 	margin-top: 1%;
 	margin-left: 8%;
@@ -110,10 +111,6 @@ ul li a:hover::before{
 	background-color: #b06e4b;
 }
 
-#educacion {
-	background-color: #b06e4b;
-}
-
 header img{
 	max-width: 200px;
 	max-height: 500px;
@@ -174,6 +171,19 @@ iframe{
 	font-weight: bold;
 }
 
+#educacion div {
+	background-color: #b06e4b;
+	position: absolute;
+	width: 250px;
+	padding: 20px;
+	margin-top: -45px;
+	text-align: center;
+	border-radius: 15px;
+	color: white;
+	margin-left: 150px;
+	font-weight: bold;
+}
+
 #titulo-info2{
 	margin-top: 20px;
 	background-color: #b06e4b;
@@ -187,6 +197,19 @@ iframe{
 }
 
 #titulo-objetivo{
+	background-color: #b06e4b;
+	position: absolute;
+	width: 250px;
+	text-align: center;
+	border-radius: 15px;
+	color: white;
+	margin-left: 50px;
+	font-weight: bold;
+	height: 40px;
+	padding-top: 20px;
+}
+
+#experiencia div{
 	background-color: #b06e4b;
 	position: absolute;
 	width: 250px;
@@ -244,6 +267,15 @@ nav img{
 }
 
 #proyectos{
+	border-radius: 25px;
+	background-color: #f9cccf;
+	margin-top: 40px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#educacion {
+	padding-left: 20px;
+	padding-top: 20px;
 	border-radius: 25px;
 	background-color: #f9cccf;
 	margin-top: 40px;
